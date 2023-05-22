@@ -6,7 +6,6 @@ import random
 
 input_dirs = "D:\\Data\\AI\\images"
 target_dirs = "D:\\Data\\AI\\annotations\\trimaps"
-
 input_img_paths = sorted([
     os.path.join(input_dirs, fname)
     for fname in os.listdir(input_dirs)
